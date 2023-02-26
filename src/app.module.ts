@@ -17,7 +17,7 @@ import { Rating } from './rating/rating.entity';
       database: 'nest-course',
       migrations: [__dirname + '/database/migrations/**/*{.ts,.js}'],
       entities: [User, Course, Rating],
-      synchronize: true,
+      synchronize: false,
     }),
   ],
   controllers: [AppController],
